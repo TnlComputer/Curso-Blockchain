@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "getNumber",
 				"outputs": [
 					{
@@ -60,11 +65,11 @@
 	},
 	"sources": {
 		"contracts/example.sol": {
-			"keccak256": "0xe3b19a832d53fa8e9f20abe7d2228c085b41fe9ffc3604a4785a9b42a5d9097c",
+			"keccak256": "0x8347d2f832dcac26557adb96ebbcbc03d02f40c8a480177f6e397468f22176c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://05be15045a29ae726d42f55ce46922233755779739c09fa31d3526de42eafbf7",
-				"dweb:/ipfs/QmNoj91efoEcpdTus8YMNiCLdcFLqzUJs8Jgx5npgJahYE"
+				"bzz-raw://d935dd48e6229879babc2313cc1d1d4c4c34cda18785d4cf27ffcb446d7b3d2c",
+				"dweb:/ipfs/QmXe1FaaSNjfPXJVkGdZFPRGvqsqQcQmtSmtu5iS5ppSYx"
 			]
 		}
 	},
