@@ -1,7 +1,7 @@
 
 // las buenas practicas dice que debemos decir que licencia usaremos
 // SPDX-License-Identifier: MIT
-// Primero le decimos qeu solidity usaremos
+// Primero le decimos que solidity usaremos
 pragma solidity ^0.8.12;
 
 contract Example {
