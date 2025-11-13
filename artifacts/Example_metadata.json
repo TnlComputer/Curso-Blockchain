@@ -1,18 +1,19 @@
 {
 	"compiler": {
-		"version": "0.8.12+commit.f00d7308"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getNumber",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr_",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,13 +27,24 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "addr_",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "value_",
 						"type": "uint256"
 					}
 				],
-				"name": "setNumber",
-				"outputs": [],
+				"name": "setBalance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -50,9 +62,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/example.sol": "Example"
+			"contracts/exampleTypes.sol": "example"
 		},
-		"evmVersion": "london",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -64,12 +76,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/example.sol": {
-			"keccak256": "0x8347d2f832dcac26557adb96ebbcbc03d02f40c8a480177f6e397468f22176c2",
-			"license": "MIT",
+		"contracts/exampleTypes.sol": {
+			"keccak256": "0x5c9569321792cfcaaba4d384756c9a59e2b09eed1f606949233be218283e9235",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d935dd48e6229879babc2313cc1d1d4c4c34cda18785d4cf27ffcb446d7b3d2c",
-				"dweb:/ipfs/QmXe1FaaSNjfPXJVkGdZFPRGvqsqQcQmtSmtu5iS5ppSYx"
+				"bzz-raw://a491056bb79a15c68422d19592d1fe619f4a5521c94ca29cd6caf0ad12cd814e",
+				"dweb:/ipfs/QmSnCqxY18EKEGmc8VpNoBE64Us3iyaHQUAxdiMQf9MhRd"
 			]
 		}
 	},
