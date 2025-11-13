@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractAddress_",
+						"type": "address"
+					}
+				],
+				"name": "useRandomize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UserRandomize.sol": "UsingTandomize"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UserRandomize.sol": {
+			"keccak256": "0xbe26d087b9a14a830478cfd105d5ed1c8895b7598d34d33c914ba91e6fe464d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48b6d84786d9eabf66ccbfcc5f41fda9770594804a5f748c6946404e931fca43",
+				"dweb:/ipfs/QmZFAsxecLWPdSVjjvUHwL4D78tQkGcsG6NPvGmD4JS6Pk"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UserRandomize.sol": "IRam"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UserRandomize.sol": {
+			"keccak256": "0x39dbc0ba3fbadb72e8ea70e0d430c94499f7c1e61a80c220bc267715340eb56d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2728837248ee91ade2a5dccdd52beca06af99e55be5081ce51f025b7f652ac28",
+				"dweb:/ipfs/QmTn9pzCKLxG5QodJ4CUQC8cUry7G2UFbn43Lp4ngan4SA"
+			]
+		}
+	},
+	"version": 1
+}
